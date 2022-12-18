@@ -1,0 +1,141 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./background.jpeg);
+    background-size: cover;
+    min-height: 100vh;
+    display: grid;
+}
+
+.container{
+    margin: 0 auto;
+    padding:40px 20px;
+    max-width: 1300px;
+    width: 100%;
+}
+
+header{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.home-icon
+{
+    height: 42px;
+    width: 42px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    cursor: pointer;
+}
+
+.search-section{
+    background-color: white;
+    display: flex;
+    padding: 4px 10px;
+    border-radius: 25px;
+    width: 35%;
+    justify-content: space-between;
+}
+
+.search-section input,
+.search-section button{
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+.search-section input{
+    width: 100%;
+    padding-left: 30px;
+}
+
+main{
+background-color: white;
+padding: 20px 0;
+border-radius: 25px;
+}
+
+h1{
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+}
+
+.sub-label{
+    background-color: #F8E6EF;
+    color: #FC2FB9;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.25);
+}
+
+.card-section{
+    display: flex;
+    gap: 40px;
+    padding: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card{
+    background-color: #FFEAF5;
+    border-radius: 10px;
+    padding: 20px 0;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 260px;
+}
+
+h2{
+    text-align: center;
+    padding: 0 10px;
+    margin-bottom: 20px;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.card img{
+    width: 100%;
+}
+
+.card p{
+    padding: 20px;
+    color: #7B7B7B;
+    text-align: left
+}
+
+.card button{
+    background-color: #BB377C;
+    padding: 10px 20px;
+    border-radius: 25px;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+footer{
+    background-color: #531234;
+    margin-top: auto;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 7px 20px;
+    color: #FFFFFF80;
+    font-size: 18px;    
+}
+
+.link-section a{
+    text-decoration: none;
+    color: #FFFFFF80;
+    cursor: pointer;
+}
